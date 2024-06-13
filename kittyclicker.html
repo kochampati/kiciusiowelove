@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty clicker!</title>
+    <link rel="stylesheet" href="kittystyle.css">
+</head>
+<body>
+    <p id="kittiesCount">
+        Kitties count: <a id="totalClicks">0</a>
+    </p> <br> 
+    
+    <p id="kittiesPerClick">
+        Kitties per Click: <a id="kittiesPerClickCount">1</a>
+    </p> <br> <br> <br> <br> <br>
+
+    <p id="clickHere">
+        <a id="kitty" onclick="kittyClick()">*small kitty*</a> <br> <br> <br> <br>
+    </p>
+
+    <p id="upgrade">
+        Upgrade: <a id="upgradeCost" onclick="upgradeClick()">10</a> kitties
+    </p> 
+
+    <script src="kittyscript.js"></script>
+</body>
+</html>
